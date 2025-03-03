@@ -12,7 +12,7 @@ export function MainHeadline() {
             Cornell CS Student Develops Innovative Online Portfolio
           </h2>
           <p className="font-serif text-lg leading-relaxed mb-4">
-            <span className="font-bold">BROOKLYN, NEW YORK —</span> Kevin Hu, a CS major at Cornell Universty with
+            <span className="font-bold">BROOKLYN, NEW YORK —</span> Kevin Hu, a CS major at Cornell University with
             strong interests in technology, finance, and sustainability, has launched a public portfolio
             of various projects in financial technology, machine learning, and web development.
           </p>
