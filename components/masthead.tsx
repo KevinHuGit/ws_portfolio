@@ -7,7 +7,7 @@ export function Masthead() {
     year: "numeric",
   })
 
-  const volumeNumber = "Vol. CCLXXXI No. 43"
+  const volumeNumber = "Vol. MMXXV No. 2025"
 
   return (
     <div className="bg-white border-b border-black">
@@ -26,7 +26,7 @@ export function Masthead() {
           <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight">KEVIN HU</h1>
           <div className="flex justify-center items-center mt-2">
             <div className="h-0.5 w-16 bg-black mx-2"></div>
-            <p className="text-sm font-serif uppercase tracking-widest">The Wall Street Portfolio</p>
+            <p className="text-sm font-serif uppercase tracking-widest">The Daily Portfolio</p>
             <div className="h-0.5 w-16 bg-black mx-2"></div>
           </div>
         </div>

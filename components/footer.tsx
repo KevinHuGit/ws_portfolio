@@ -64,13 +64,13 @@ export function Footer() {
         </div>
         <div className="border-t border-gray-800 mt-8 pt-6 text-center font-serif text-sm text-gray-400">
           <p>© {currentYear} Kevin Hu. All rights reserved.</p>
-          <p className="mt-1">
+          {/* <p className="mt-1">
             <span className="mx-2">Privacy Policy</span>
             <span className="mx-2">|</span>
             <span className="mx-2">Terms of Service</span>
             <span className="mx-2">|</span>
             <span className="mx-2">Cookie Policy</span>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

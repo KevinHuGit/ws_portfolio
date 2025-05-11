@@ -9,7 +9,7 @@ export function MarketData() {
     { name: "Java", level: "Advanced", trend: "stable" },
     { name: "Linux", level: "Intermediate", trend: "up" },
     { name: "Golang", level: "Intermediate", trend: "up" },
-    { name: "Docker", level: "Beginner", trend: "stable" },
+    { name: "Git", level: "Intermediate", trend: "up" },
 
   ]
 

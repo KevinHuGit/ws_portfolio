@@ -16,7 +16,7 @@ export function SidebarContent() {
             <p className="text-sm">B.A. Computer Science and Mathematics</p>
             <p className="text-sm italic">2023 - 2026</p>
             <p className="mt-2">
-              Graduating with a degree in CS, concentrating in Business/Finance. Experience wtih computational finance and machine learning applications in financial markets.
+              Graduating with a degree in CS and minor in Business/Finance. Experience wtih computational finance and machine learning applications in financial markets.
 
             </p>
           </div>
@@ -38,16 +38,16 @@ export function SidebarContent() {
           <h2 className="text-xl font-serif font-bold uppercase tracking-wider">PUBLICATIONS</h2>
         </div>
 
-        <div className="space-y-4 font-serif">
+        {/* <div className="space-y-4 font-serif">
           <div>
             <h3 className="font-bold">Publication Pending</h3>
             <p className="italic text-sm">2025</p>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* Newsletter Signup */}
-      <section>
+      {/* <section>
         <div className="border-b-2 border-black mb-4">
           <h2 className="text-xl font-serif font-bold uppercase tracking-wider">NEWSLETTER</h2>
         </div>
@@ -69,7 +69,7 @@ export function SidebarContent() {
 
           <p className="font-serif text-xs mt-2 text-gray-600 italic">Delivered monthly. Unsubscribe anytime.</p>
         </div>
-      </section>
+      </section> */}
 
       {/* Advertisement */}
       <section>
@@ -85,6 +85,76 @@ export function SidebarContent() {
               Learn More →
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="Contact">
+        <div className="border-b-2 border-black mb-4">
+          <h2 className="text-xl font-serif font-bold uppercase tracking-wider">CONTACT INFORMATION</h2>
+        </div>
+
+        <div className="grid md:grid-cols-1 gap-8">
+          <div>
+            <h3 className="text-2xl font-serif font-bold mb-4">Get In Touch</h3>
+            <p className="font-serif mb-6">
+              To connect with Kevin, please use the following contact information:
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="font-serif">
+                <span className="font-bold">Email:</span> kh785@cornell.edu
+              </div>
+              <div className="font-serif">
+                <span className="font-bold">LinkedIn:</span> linkedin.com/in/khu22
+              </div>
+              <div className="font-serif">
+                <span className="font-bold">GitHub:</span> github.com/kevinhugit
+              </div>
+              {/* <div className="font-serif">
+                <span className="font-bold">Substack:</span> kvnhu.substack.com
+              </div> */}
+            </div>
+
+            <div className="border-t border-gray-300 pt-4">
+              <p className="font-serif text-sm italic">
+                Based in New York City. Available for rellocation.
+              </p>
+            </div>
+          </div>
+
+          {/* <div className="bg-[#f4f1e8] p-6 border border-gray-300">
+            <h3 className="text-2xl font-serif font-bold mb-4">Send a Message</h3>
+            <form className="space-y-4">
+              <div>
+                <label htmlFor="name" className="block font-serif mb-1 text-sm">
+                  Name
+                </label>
+                <input id="name" className="w-full border border-gray-300 p-2 font-serif bg-white" />
+              </div>
+              <div>
+                <label htmlFor="email" className="block font-serif mb-1 text-sm">
+                  Email
+                </label>
+                <input id="email" type="email" className="w-full border border-gray-300 p-2 font-serif bg-white" />
+              </div>
+              <div>
+                <label htmlFor="subject" className="block font-serif mb-1 text-sm">
+                  Subject
+                </label>
+                <input id="subject" className="w-full border border-gray-300 p-2 font-serif bg-white" />
+              </div>
+              <div>
+                <label htmlFor="message" className="block font-serif mb-1 text-sm">
+                  Message
+                </label>
+                <textarea id="message" rows={5} className="w-full border border-gray-300 p-2 font-serif bg-white" />
+              </div>
+              <button type="submit" className="bg-black text-white hover:bg-gray-800 font-serif py-2 px-4 w-full">
+                Send Message
+              </button>
+            </form>
+          </div> */}
         </div>
       </section>
     </div>
